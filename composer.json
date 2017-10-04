@@ -1,0 +1,24 @@
+{
+    "name": "vizsla-2",
+    "type": "library",
+    "description": "Monolog provider for KodiApp",
+    "keywords": ["kodi-app","logger","monolog","php"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/kodi-app/kodi-monolog-provider",
+    "authors": [
+        {
+            "name": "Attila Nagy",
+            "email": "attila.nagy@ilx.hu",
+            "role": "Author, Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "KodiMonologProvider": "src/"
+        }
+    },
+    "require": {
+        "kodi-app/kodi-core": "0.9.*",
+        "monolog/monolog": "1.23.0"
+    }
+}
