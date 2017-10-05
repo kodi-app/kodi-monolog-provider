@@ -6,7 +6,7 @@
  * Time: 9:51
  */
 
-namespace KodiMonologProvider\MonologProvider;
+namespace KodiMonologProvider;
 
 
 use Monolog\Handler\StreamHandler;
