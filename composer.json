@@ -1,5 +1,5 @@
 {
-    "name": "vizsla-2",
+    "name": "kodi-monolog-provider",
     "type": "library",
     "description": "Monolog provider for KodiApp",
     "keywords": ["kodi-app","logger","monolog","php"],
