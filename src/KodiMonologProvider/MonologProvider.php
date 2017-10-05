@@ -53,7 +53,7 @@ class MonologProvider implements ServiceProviderInterface
                             $logger->pushHandler(new StreamHandler($handler["file_path"],$handler["log_level"]));
                     }
                 }
-                $loggerStore[] = $logger;
+                $loggerStore[$conf_item["name"]] = $logger;
             }
 
 
